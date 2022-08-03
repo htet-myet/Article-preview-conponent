@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
+.prev-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.prev-sec-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid hsl(210, 46%, 95%);
+    border-radius: 10px;
+    
+}
+
+.prev-sec-img{
+    width: 300px;
+    height: 300px;
+}
+
+.prev-sec-p{
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+   
+
+}
+
+h1{
+    font-size: 1.3rem;
+    font-family: 'Manrope', sans-serif;
+    color: hsl(214, 17%, 51%);
+    line-height: 28px;
+    padding:20px 40px;
+}
+
+.prev-sec-middle-p{
+    font-size: 13px;
+    padding:0 40px;
+    color: hsl(217, 19%, 35%);
+    line-height: 20px;
+   
+}
+
+.michelle{
+    display: flex;
+    padding: 10px 40px;
+    
+}
+
+.michelle-img{
+    width: 40px;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+
+.michelle-p{
+   padding-top: 30px;
+   padding-left: 20px;
+   font-family: 'Manrope', sans-serif;
+   
+}
+
+.michelle-name{
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+.michelle-date{
+    font-size: 12px;
+    color:  hsl(212, 23%, 69%);
+    
+}
+
+.share{
+    display: flex;
+    justify-content: flex-end;
+    width: 35px;
+    border-radius: 100px;
+    height: 35px;
+    margin: 30px 0 0 200px;
+    background-color: hsl(210, 46%, 95%);
+    border: 1px solid hsl(210, 46%, 95%);
+    cursor: pointer;
+}
+
+.btn-share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17px;
+    height: 17px;
+    margin: 7px;
+    cursor: pointer;
+   
+}
+
+.share:hover{
+    background-color: hsl(217, 19%, 35%);
+   
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
+    margin-left: 290px;
+    margin-top: 10px;
+   
+}
+
+.p-share{
+    font-size: 14px;
+    text-align: center;
+    color: hsl(212, 23%, 69%);
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+.face-icon{
+   width: 20px;
+   height: 20px;
+}
+
+.twitter-icon{
+   width: 20px;
+   height: 20px;
+}
+
+.pin-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+span{
+   
+    position: absolute;
+    margin-left: 390px;
+    color:hsl(210, 46%, 95%);
+    border-top: 13px solid hsl(217, 19%, 35%);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    
+}
+
+.opacity{
+    opacity: 100%;
+}
+
+@media  screen and (max-width:480px) {
+
+    .prev-sec{
+      height: 150vh;
+    }
+
+    .prev-sec-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 450px;
+        border-radius: 10px;
+        
+    }
+
+    .prev-sec-img{
+        height: 200px;
+        width: 350px;
+    }
+
+    .prev-sec-p{
+        width: 350px;
+        height: 250px;
+       
+       
+    }
+
+    h1{
+        font-size: 15px;
+        line-height: 18px;
+        padding:30px  30px 0 30px;
+    }
+
+    .prev-sec-middle-p{
+        font-size: 13.2px;
+        line-height: 15px;
+        padding:0px 30px;
+        padding-top: 15px;
+       
+    }
+
+    .michelle{
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+
+    .michelle-img{
+        width: 30px;
+    }
+
+    .michelle-name{
+        font-size: 10px;
+        width: 100px;
+    }
+
+    .michelle-date{
+        font-size: 8px;
+    }
+
+    .share{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 65%;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+       
+    }
+
+    .btn-share{
+        width: 12px;
+        height: 12px;
+    }
+
+    .icons{
+       margin: 26% 50% 0 0 ;
+       width: 348px;
+       border-radius: 0;
+       overflow: hidden;
+       border-radius: 10px;
+    }
+}
+
+
